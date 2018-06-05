@@ -1,0 +1,94 @@
+html {
+  height:100%;
+  background-image:url("https://images.pexels.com/photos/997731/pexels-photo-997731.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size:cover;
+  
+}
+
+#banner {
+  padding-top:22%;
+  font-family:"Fjalla One", sans-serif;
+  font-size:35px;
+  display:flex;
+  justify-content:center;
+  color:#600754;
+  
+}
+h2{
+  background: white;
+}
+
+#heading {
+  height:100%;
+  font-family:"Fjalla one", sans-serif;
+  display:flex;
+  justify-content:space-around;
+  color:#600754;
+}
+.navbar {
+  display:flex;
+  justify-content: space-around;
+  background-color:white;
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100% /* Full width*/;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #600754;
+  font-family:'Montserrat', sans-serif;
+}
+
+.navbar a:hover {
+  color:white;
+  background:#9370DB;
+}
+#about-content {
+  display:flex;
+  justify-content:space-around;
+  margin-top:22%;
+  
+}
+
+img {
+  border-radius:5%;
+  border:solid 5px #600754;
+}
+
+
+.my-description {
+  background:white;
+  margin:3%;
+  padding:4%;
+  font-family:'Montserrat', sans-serif;
+  color:#600754;
+}
+
+.project-container {
+  margin-top:20%;
+  display:flex;
+  width:100%;
+  height:100%;
+  justify-content:space-between;
+  
+}
+ span {
+  background:#fafafa;
+  width:30%;
+  height:60%;
+  margin:2%;
+  padding:2%;
+  font-family:'Montserrat', sans-serif;
+  color:purple;
+  align-items: center;
+  }
+
+.feature-description {
+  font-family:"Fjalla one", sans-serif;
+  color: #600754;
